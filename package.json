@@ -2,6 +2,11 @@
   "name": "react_native_typescript_form",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "description": "React Native 기반의 프로젝트 form",
+  "repository": "https://github.com/adjh54ir/react_native_typescript_form.git",
+  "author": "Lee <adjh54ir@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,18 +15,25 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/stack": "^6.2.1",
     "expo": "~44.0.0",
     "expo-status-bar": "~1.2.0",
+    "moment": "^2.29.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react-dom": "^18.0.0",
     "react-native": "0.64.3",
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
-    "@types/react-native": "~0.64.12",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-native": "^0.67.4",
     "typescript": "~4.3.5"
   },
-  "private": true
+  "resolutions": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
+  }
 }
