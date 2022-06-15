@@ -1,6 +1,6 @@
 import { StackNavigationProp, createStackNavigator, StackNavigationOptions } from '@react-navigation/stack';
 import { NavigationContainer, RouteProp } from '@react-navigation/native';
-import { CommonInteface } from '../../interface/CommonInterface';
+import { CommonInteface } from '../../types/CommonTypes';
 import Home from '../main/Home';
 
 /**
@@ -15,7 +15,6 @@ const StackNavigation = (appStateType: any): JSX.Element => {
     const fn_navigationScreenOptions: StackNavigationOptions = {
 
     }
-
 
     return (
         <NavigationContainer>

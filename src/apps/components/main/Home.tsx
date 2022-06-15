@@ -1,4 +1,4 @@
-import { CommonInteface } from "../../interface/CommonInterface";
+import { CommonInteface } from "../../types/CommonTypes";
 
 const Home = ({ route, navigation, appState }: CommonInteface.ChildrenProps): JSX.Element => {
     return (
